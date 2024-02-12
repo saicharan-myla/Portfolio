@@ -11,7 +11,7 @@ import React from "react";
 import Exp from "./Exp2";
 
 const Body = () => {
-    return (<div className="min-w-screen h-full w-full min-h-screen">
+    return (<div  id="body" className="min-w-screen h-full w-full min-h-screen">
     <MainContainer/>
     <About/>
     <Exp/>

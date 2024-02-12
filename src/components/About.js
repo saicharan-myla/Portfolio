@@ -13,11 +13,11 @@ const About = ()=> {
 
     return (
 
-        <div className='flex px-[10%]'>
+        <div id="about" className='flex px-[10%]'>
           <div> 
 
 {/* <div id="about" className='items-center justify-center flex flex-wrap z-10 min-h-screen'> */}
-<div className="flex flex-col items-start bg-navy z-1 pt-[5%] pb-[5%] "  >
+<div className="flex flex-col items-start bg-navy z-1 pt-[5%] pb-[5%] h-screen "  >
   
   <div className="bg-navy text-slate text-lg max-w-[70%]  text-left">
 

@@ -11,18 +11,10 @@ const [isVisible,setIsVisible] = useState(false);
 
 
     return (
-        <div className='h-full min-h-screen'>
+        <div id="project" className='h-full min-h-screen'>
 
             <ImgProj/>
 
-      
-        
-        {/* <button
-  className="ml-[10%] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 justify-center items-center my-[4%] p-[1%] mx-[0.5%] max-w-[50%] text-green text-md sm:text-sm md:text-lg lg:text-xl xl:text-2xl border border-green rounded-[5%] shadow-green hover:shadow-lg"
-  onClick={() => { setIsVisible(!isVisible) }}
->
-  {isVisible ? 'Show Less' : 'Show More'}
-</button> */}
     {(isVisible === false) ?  <button className=" ml-[10%] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 justify-center items-center my-[4%] p-[1%] mx-[0.5%] max-w-[50%] text-green text-md sm:text-sm md:text-lg lg:text-xl xl:text-2xl border border-green rounded-[5%] shadow-green hover:shadow-lg" onClick={()=>{setIsVisible(true)}} >Show More</button> : "" }
         
     {  isVisible &&  <div className='flex bg-navy justify-center items-center h-full min-h-screen'>

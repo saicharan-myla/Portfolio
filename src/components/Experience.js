@@ -13,7 +13,7 @@ const Experience = ()=> {
       }, []);
     
     return (
-        <div className="min-h-screen h-full">
+        <div className="min-h-screen h-full h-screen">
             {/* <SectionTitle title="Where I have Worked" titleNo="02"/> */}
             <h1 className=" flex flex-col flex-wrap items-center justify-center font-bold text-lg sm:text-sm md:text-2xl lg:text-3xl xl:text-4xl mb-[1%] text-slate">Where I've worked</h1> 
           <div className= "justify-center items-center text-lightestslate min-w-full w-full h-full">

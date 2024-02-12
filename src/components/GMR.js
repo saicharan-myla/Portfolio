@@ -1,7 +1,7 @@
 const GMR = () => {
     return (
         
-    <div id="Verizon">
+    <div id="GMR">
     <h3 className="flex gap-1 font-medium text-xl font-titleFont text-lightestslate"> Software Development Engineer Intern <span className="text-green tracking-wide">@GMR</span></h3>
     <p className="mt-1 mb-1">
         Mar 2017 - Jun 2017

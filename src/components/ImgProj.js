@@ -1,6 +1,6 @@
 const ImgProj = ()=> {
     return (
-        <div className="max-w-container text-lightestslate">
+        <div  id="img_proj" className="max-w-container text-lightestslate">
               <h2 className=" pl-[10%] flex flex-col flex-wrap text-md sm:text-sm md:text-xl lg:text-2xl xl:text-3xl font-bold text-lightestslate text-left pt-[2%] pb-[2%]">Things I have built</h2> 
             <section className="py-[2%] pl-[10%] pr-[10%]">
              <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">

@@ -1,6 +1,6 @@
 const LeftSide = ()=> {
     return (
-        <div className="w-full h-full flex flex-col items-center justify-end gap-6 text-lightestslate">
+        <div  id="leftside" className="w-full h-full flex flex-col items-center justify-end gap-6 text-lightestslate">
 
 
             <a href="https://github.com/saicharan-myla" className="hover:text-green transition ease-in-out delay-150 hover:scale-100 duration-300">

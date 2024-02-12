@@ -9,8 +9,8 @@ const Exp = ()=> {
 
     const [exp, setExp] = useState("Verizon");
     return (
-        <div className="max-w-contianerxs mx-auto px-[10%] w-full mb-[3%]">
-             <h1 className="text-lightestslate mt-8 sm:text-lg md:text-2xl lg:text-3xl xl:text-3xl font-bold"> Where I've Worked </h1>
+        <div  id="Experience" className="max-w-contianerxs mx-auto px-[10%] w-full mb-[3%] min-h-screen">
+             <h1 className="text-lightestslate mt-8 sm:text-lg md:text-2xl lg:text-3xl xl:text-3xl font-bold pt-[5%]"> Where I've Worked </h1>
 
         <div className="text-slate mt-10 flex flex-row gap-16">
            

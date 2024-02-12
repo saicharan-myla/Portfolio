@@ -3,7 +3,7 @@ import React from "react";
 const ThinkMax =()=> {
 return (
 
-    <div id="Verizon">
+    <div id="thinkmax">
     <h3 className="flex gap-1 font-medium text-xl font-titleFont text-lightestslate"> Software Development Engineer Intern <span className="text-green tracking-wide">@ThinkMax</span></h3>
     <p className="mt-1 mb-1">
         Apr 2018 - July 2018

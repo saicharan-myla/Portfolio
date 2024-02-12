@@ -2,7 +2,7 @@ import React from "react";
 const Infosys =()=> {
     return (
       
-    <div id="Verizon">
+    <div id="Infosys">
     <h3 className="flex gap-1 font-medium text-xl font-titleFont text-lightestslate"> Software Development Engineer <span className="text-green tracking-wide">@Infosys</span></h3>
     <p className="mt-1 mb-1">
         Mar 2020 - Oct 2021

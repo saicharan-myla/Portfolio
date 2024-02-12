@@ -3,7 +3,7 @@ import Rightside from "./Rightside"
 import Leftside from "./LeftSide";
 const MainContainer = ()=> {
     return (
-        <div className="pl-[10%]">
+        <div  id="maincontainer" className="pl-[10%] h-screen">
     <div >
 
         < div className="max-w-[70%] py-[5%]">
@@ -15,8 +15,8 @@ const MainContainer = ()=> {
         <br></br>
 
        <p className="flex flex-col flex-wrap text-md sm:text-sm md:text-sm lg:text-md xl:text-lg text-slate max-w-[50%] text-justify tracking-wide">
-        I am a Software Engineer specializing in building exception digital experiences. My passion lies in crafting pixel-perfect digital solutions and architecting cloud solutions.
-    Please feel free to contact me for any collaborations or opportunities.
+        I am a Software Engineer specializing in building exceptional digital experiences. My passion lies in crafting pixel-perfect digital solutions and architecting cloud solutions.
+        I'm open to discussing potential collaborations or opportunities.
        </p>
 
       
